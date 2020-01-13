@@ -15,8 +15,8 @@ const SampleContainer = ({
   useEffect(() => {
     const fn = async () => {
       try {
-        getPost(1);
-        getUsers(1);
+        await getPost(1);
+        await getUsers(1);
       } catch(e) {
         console.log(e);
       }
