@@ -5,7 +5,7 @@ import SampleContainer from './container/SampleContainer';
 const App = () => {
   return (
     <div>
-      <SampleContainer />
+      <CounterContainer />
     </div>
   );
 }
