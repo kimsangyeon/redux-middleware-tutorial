@@ -11,7 +11,7 @@ const rootReducer = combineReducers({
 });
 
 export function* rootSaga() {
-  yield all([counterSaga]);
+  yield all([counterSaga()]);
 }
 
 export default rootReducer;
