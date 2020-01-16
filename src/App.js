@@ -5,6 +5,8 @@ import SampleContainer from './container/SampleContainer';
 const App = () => {
   return (
     <div>
+      <CounterContainer />
+      <hr />
       <SampleContainer />
     </div>
   );
